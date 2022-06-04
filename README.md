@@ -1,4 +1,4 @@
-<h1 align="center"> 💜 Purple Pipes 💜 </h1> <br>
+<p align="center"><img width=60% src="https://raw.githubusercontent.com/SentientHousePlant/purplepipes/main/img/purplepipeslogo.png> </p>
 
 ## Requirements
 
