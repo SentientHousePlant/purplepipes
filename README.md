@@ -1,4 +1,5 @@
-# :sparkles: python-boilerplate :sparkles:
+# :sparkles: 💜 Purple Pipes 💜 :sparkles:
+
 Uses:
 - poetry
 - black
