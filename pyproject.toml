@@ -1,8 +1,21 @@
 [tool.poetry]
 name = "purplepipes"
 version = "0.1.0"
-description = "A modern python boilerplate."
+description = "Pipes for data processing using pandas."
 authors = ["J 'Indi' Harrington <indigoharrington@gmail.com>"]
+license = "MIT"
+readme = "README.md"
+homepage = "https://github.com/SentientHousePlant/purplepipes"
+repository = "https://github.com/SentientHousePlant/purplepipes"
+keywords = ["pandas", "data", "processes"]
+classifiers = [
+    "Development Status :: 1 - Planning",
+    "License :: OSI Approved :: MIT License",
+    "Programming Language :: Python :: 3"
+]
+include = [
+    "LICENSE",
+]
 
 [tool.poetry.dependencies]
 python = "^3.10"
