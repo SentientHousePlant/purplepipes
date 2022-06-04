@@ -1,4 +1,4 @@
-<p align="center"><img src="https://raw.githubusercontent.com/SentientHousePlant/purplepipes/main/img/purplepipeslogo.png"> </p>
+<p align="center"><img width=85% src="https://raw.githubusercontent.com/SentientHousePlant/purplepipes/main/img/purplepipeslogo.png"> </p>
 
 ## Requirements
 
