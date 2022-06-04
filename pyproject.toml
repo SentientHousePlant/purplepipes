@@ -1,8 +1,8 @@
 [tool.poetry]
-name = "python-boilerplate"
+name = "purplepipes"
 version = "0.1.0"
 description = "A modern python boilerplate."
-authors = ["Your Name <you@example.com>"]
+authors = ["J 'Indi' Harrington <indigoharrington@gmail.com>"]
 
 [tool.poetry.dependencies]
 python = "^3.10"
