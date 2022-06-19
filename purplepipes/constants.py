@@ -1,6 +1,6 @@
 import jsonschema
 
-purple_yaml_schema = {
+paml_schema = {
     "type" : "object",
     "properties" : {
         "name" : {"type":"string"},
@@ -12,6 +12,8 @@ purple_yaml_schema = {
     "required":["name", "input", "output", "output path", "steps"]
 }
 
+DEFAULT_PAML_NAME = ".purplepipes.config.yaml"
+
 if __name__ == "__main__":
 
     test_dict = {
@@ -21,4 +23,4 @@ if __name__ == "__main__":
         "output path": "somewhere"
     }
 
-    jsonschema.validate(schema=purple_yaml_schema, instance=test_dict)
+    jsonschema.validate(schema=paml_schema, instance=test_dict)

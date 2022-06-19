@@ -1,4 +1,5 @@
 import click
+from purplepipes.utils import parse_yaml
 
 @click.group()
 def cli():
@@ -6,4 +7,5 @@ def cli():
 
 @cli.command()
 def run():
-    click.echo("Hello World")
+    print(parse_yaml())
+    
