@@ -9,7 +9,7 @@ purple_yaml_schema = {
         "output" : {"type" : "string", "enum" : ["csv", "json"]},
         "output path" : {"type" : "string"}
     },
-    "required":["name", "input", "output", "output path"]
+    "required":["name", "input", "output", "output path", "steps"]
 }
 
 if __name__ == "__main__":
