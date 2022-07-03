@@ -3,14 +3,17 @@ import jsonschema
 from purplepipes.utils import parse_yaml
 from purplepipes.constants import DEFAULT_PAML_NAME
 
+
 @click.group()
 def cli():
     pass
 
+
 @cli.command()
 def run():
     print(parse_yaml())
-    
+
+
 @cli.command()
 def validate():
     try:
